@@ -1,4 +1,5 @@
 import Presentation from "../../_components/Presentation/_index";
+import About from "../../_components/About/_index";
 
 function Home() {
 
@@ -23,6 +24,8 @@ function Home() {
             </section>
 
             <Presentation/>
+
+            <About/>
 
         </>
 
