@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './index.scss';
+import "./style/main.scss";
 import Home from './_pages/Home/_index';
 import ContactForm from './_pages/contactForm/_index';
 import Error from './_pages/Error/_index';
@@ -19,9 +19,9 @@ root.render(
 
         <Routes>
 
-          <Routes path="/" element={<Home/>}/>
-          <Routes path="contactform" element={<ContactForm/>}/>
-          <Routes path="*" element={<Error/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="contactform" element={<ContactForm/>}/>
+          <Route path="*" element={<Error/>}/>
 
         </Routes>
 
