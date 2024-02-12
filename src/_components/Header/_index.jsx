@@ -17,7 +17,7 @@ function Header(){
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#competence">Compétences</a>
+                    <a href="#skill">Compétences</a>
                 </li>
 
                 <li className="navbar__link">

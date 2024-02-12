@@ -1,5 +1,6 @@
 import Presentation from "../../_components/Presentation/_index";
 import About from "../../_components/About/_index";
+import Skills from "../../_components/Skills/_index";
 
 function Home() {
 
@@ -26,6 +27,8 @@ function Home() {
             <Presentation/>
 
             <About/>
+
+            <Skills/>
 
         </>
 
