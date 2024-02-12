@@ -1,0 +1,64 @@
+.collapsable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 1.5em;
+        border-radius: 0.3em;
+        cursor: pointer;
+
+        p {
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 24px;
+            transition: margin-left 500ms ease-out;
+        }
+
+        &:hover {
+            h2 {
+                margin-left: 5px;
+            }
+        }
+        .icon{
+            color: #FFFFFF;
+            width: 1em;
+            height: 1em;
+            transform: rotate(0deg);
+            transition: transform 250ms ease;
+            //border: 1px solid;
+            &-over{
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    .content {
+        text-align: start;
+        height: 0px;
+        overflow: hidden;
+        transition: height 250ms ease;
+
+        &-over{
+            div {
+                top:0px !important;
+            }
+        }
+
+        div {
+            background-color: #F6F6F6;
+            border-radius: 0px 0px 0.3em 0.3em;
+            padding: 17.5px;
+            font-weight: 400;
+            font-size: 1.1em;
+            position: relative;
+            //top: -100px;
+            transition: top 250ms ease;
+        }
+    }
+    
+}

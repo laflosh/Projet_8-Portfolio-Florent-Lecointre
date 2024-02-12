@@ -1,6 +1,9 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faUpload} from "@fortawesome/fontawesome-free-solid";
 import Presentation from "../../_components/Presentation/_index";
 import About from "../../_components/About/_index";
 import Skills from "../../_components/Skills/_index";
+import Project from "../../_components/Project/_index";
 
 function Home() {
 
@@ -18,7 +21,10 @@ function Home() {
                     </h1>
                     <p>Dévellopeur web / Front-End</p>
 
-                    <button>Mon CV</button>
+                    <button>
+                        Mon CV
+                        <FontAwesomeIcon icon={faUpload} />
+                    </button>
 
                 </div>
 
@@ -29,6 +35,8 @@ function Home() {
             <About/>
 
             <Skills/>
+
+            <Project/>
 
         </>
 

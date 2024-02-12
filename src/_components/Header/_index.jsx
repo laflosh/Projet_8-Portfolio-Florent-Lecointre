@@ -21,7 +21,7 @@ function Header(){
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#project">Portfolio</a>
                 </li>
 
                 <li className="navbar__link">
