@@ -20,7 +20,7 @@ root.render(
         <Routes>
 
           <Route path="/" element={<Home/>}/>
-          <Route path="contactform" element={<ContactForm/>}/>
+          <Route path="/contactform" element={<ContactForm/>}/>
           <Route path="*" element={<Error/>}/>
 
         </Routes>

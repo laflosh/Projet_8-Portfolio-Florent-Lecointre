@@ -2,7 +2,13 @@ import logoX from "../../assets/logo-X.png";
 import logoLinkedIn from "../../assets/logo-linkedin.jpg";
 import logoGithub from "../../assets/logo-github.webp";
 
-function Contact(){
+function Contact(props){
+
+    function handleClick(){
+        if(props.onClickHandler){
+            props.onClickHandler();
+        };
+    };
 
     return(
 
@@ -38,7 +44,7 @@ function Contact(){
 
                         <p>Par mail :</p>
 
-                        <button>
+                        <button onClick={handleClick}>
                             Contact par mail
                         </button>
 
