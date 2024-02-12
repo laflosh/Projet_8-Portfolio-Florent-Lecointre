@@ -4,7 +4,7 @@ function Header(){
 
     return(
 
-        <div>
+        <div id="header">
 
             <ul className="navbar">
 
@@ -21,11 +21,11 @@ function Header(){
                 </li>
 
                 <li className="navbar__link">
-                    <a href="portfolio">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
 
                 <li className="navbar__link">
-                    <a href="contact">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
