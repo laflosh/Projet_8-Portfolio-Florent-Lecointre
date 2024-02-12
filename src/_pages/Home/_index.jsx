@@ -4,6 +4,7 @@ import Presentation from "../../_components/Presentation/_index";
 import About from "../../_components/About/_index";
 import Skills from "../../_components/Skills/_index";
 import Project from "../../_components/Project/_index";
+import Contact from "../../_components/Contact/_index";
 
 function Home() {
 
@@ -37,6 +38,8 @@ function Home() {
             <Skills/>
 
             <Project/>
+
+            <Contact/>
 
         </>
 
