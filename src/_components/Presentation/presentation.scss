@@ -1,0 +1,62 @@
+.presentation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        border-top: 25px solid grey ;
+        border-bottom: 25px solid grey ;
+        margin-top: 40px;
+        padding: 20px 0;
+    }
+}
+
+.presentationContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 0;
+    &__img{
+        width: 415px;
+        height: 675px;
+        border-radius: 15px;
+        margin-left: 100px;
+        box-shadow:
+            2.6px 2.5px 1.8px rgba(0, 0, 0, 0.245),
+            21px 20px 14px rgba(0, 0, 0, 0.49);
+    }
+    &__info{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+        border: 6px solid black;
+        border-radius: 15px;
+        box-shadow:
+            11px 11px 14px rgba(0, 0, 0, 0.49);
+    }
+    &__infoName{
+        color: #6d6c6c ;
+        font-size: 48px;
+    }
+    &__infoAge{
+        color: #6d6c6c ;
+        font-size: 24px;
+    }
+    &__infoDescription{
+        width: 80%;
+        color: #6d6c6c;
+        font-size: 24px;
+        text-align: center;
+    }
+}
