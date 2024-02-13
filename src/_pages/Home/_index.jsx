@@ -6,10 +6,26 @@ import Skills from "../../_components/Skills/_index";
 import Project from "../../_components/Project/_index";
 import Contact from "../../_components/Contact/_index";
 import { useNavigate } from "react-router";
+import { getDataAbout, getDataCompetence, getDataFormation, getDataPresentation, getDataProject } from "../../data/dataTools";
 
 function Home() {
 
     const navigate = useNavigate();
+
+    let dataPresentation = getDataPresentation();
+    console.log(dataPresentation);
+
+    let dataFormation = getDataFormation();
+    console.log(dataFormation);
+
+    let dataAbout = getDataAbout();
+    console.log(dataAbout);
+
+    let dataCompetence = getDataCompetence();
+    console.log(dataCompetence);
+
+    let dataProject = getDataProject();
+    console.log(dataProject);
 
     return (
 
