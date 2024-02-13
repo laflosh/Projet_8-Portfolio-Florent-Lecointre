@@ -1,0 +1,103 @@
+{
+    "presentation" :{
+        "name" : "Florent Lecointre",
+        "age" : "23 ans",
+        "presentation" : [
+            "Récement diplômé du parcour developpeur web de chez OpenClassrooms, ça à déclenché un révélation pour mon futur. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
+            "Ma volonté d'intégré le monde professionnel du développemnt est grandissante. Cela me permettra de consolidé mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
+        ]
+    },
+    "formation" : {
+        "devweb" : {
+            "degree" : "OpenClassrooms développeur Web",
+            "description" : "Front-end / Initiation Back-end Diplôme de niveau 5 (Bac +2)",
+            "year" : "2023-2024"
+        },
+        "bac" : {
+            "degree" : "Baccalauréat Scientifique",
+            "description" : "Option science de l'ingénieur",
+            "year" : "2019"
+        }
+    },
+    "about" : [
+        "Passionné de basket, je pratique ce sport depuis une dizaine d'années, j'ai pu être amener à entrainer et coacher une équipe de joueur de 13 à 15ans. J'apprécie aussi les sport de glisse comme le ski et le snowboard en hiver et le surf et body-board l'été. Je pratique depuis peu la streatluge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
+        "Je possède une autre passion qui me suit depuis toujours qui est le jeu vidéo. C'est celle-ci qui m'a amené sur le chemin de la programmation informatique. Ayant pour but de pouvoir créer mes propres jeux, une fois mes compétences consolidés, je compte me tourner vers l'apprentissage du C, C++ ou encore le Java et des logiciels comme Unity 3D ou Unreal Engine."
+    ],
+    "competence" : {
+        "frontend" : [
+            "Html / CSS",
+            "JavaScript / JSX",
+            "ReactJS",
+            "Sass / Scss",
+            "Responsive design"
+        ],
+        "backend" : [
+            "NodeJS",
+            "ExpressJS",
+            "MangoDB",
+            "API Rest"
+        ],
+        "tools" : [
+            "npm / yarn",
+            "Git / GitHub",
+            "Confluence / Jira",
+            "Figma",
+            "Postman",
+            "Visual Studio Code / NotePad++"
+        ]
+    },
+    "project" : {
+        "sophieBluel" : {
+            "imageUrl" : [
+                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
+                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
+                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
+                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
+            ],
+            "title" : "Portfolio de l'architecte d'intérieur Sophie Bluel",
+            "description" : "Réalisation du front-end du portfolio de Sophie Bluel en Html/CSS et JavaScript avec une API pour l'envoie et le stockage des données.",
+            "mission" : [
+                "Afichage des projets dynamique",
+                "Filtrer les projets en fonction de leur catégorie",
+                "Connexion à un compte admin pour gestion des projets (authentification/token)",
+                "Réalisation d'une modal pour la gestion",
+                "Suppression d'un projet de la base de données",
+                "Ajouter un projet à la base de données"
+            ]
+        },
+        "kasa" : {
+            "imageUrl" : [
+                "../../assets/imagesProjects/Kasa/kasa-1.PNG",
+                "../../assets/imagesProjects/Kasa/kasa-2.PNG",
+                "../../assets/imagesProjects/Kasa/kasa-3.PNG",
+                "../../assets/imagesProjects/Kasa/kasa-4.PNG"
+            ],
+            "title" : "Application de location immobilière de particulier à particulier Kasa",
+            "description" : "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaire dans un fichier JSON.",
+            "mission" : [
+                "Gestion des pages de l'application à l'aide de la librairie react router",
+                "Décomposition de l'aplication en composant réutilisable",
+                "Mettre en œuvre des animations CSS",
+                "Création de l'interface web à l'aide du précompilateur Sass",
+                "Gestion des erreurs sur la navigation"
+            ]
+        },
+        "monVieuxGrimoire" : {
+            "imageUrl" : [
+                "../../assets/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
+                "../../assets/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
+                "../../assets/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
+                "../../assets/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
+            ],
+            "title" : "Application de notation de livre Mon Vieux Grimoire",
+            "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",
+            "mission" : [
+                "Création de compte utilisateur et connexion à un compte existant",
+                "Gestion de l'authentification grâce au token",
+                "Mis en œuvre des opérations CRUD de manière sécurisée",
+                "Implémenter un modèle logique de données conformément à la demande client",
+                "Stocker des données de manière sécurisée"
+            ]
+        }
+    }
+}
