@@ -6,11 +6,8 @@ function Header(){
 
     const location = useLocation();
     let [isForm, setIsForm] = useState(false);
-    console.log(location);
 
     useEffect(() => {
-
-        console.log(location.pathname);
 
         if (location.pathname !== "/"){
             setIsForm(true);
