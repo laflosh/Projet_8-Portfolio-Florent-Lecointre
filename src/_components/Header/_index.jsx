@@ -12,9 +12,9 @@ function Header(){
 
         console.log(location.pathname);
 
-        if (location.pathname === "/contactform"){
+        if (location.pathname !== "/"){
             setIsForm(true);
-        } else if (location.pathname === "/"){
+        } else {
             setIsForm(false);
         }
 
