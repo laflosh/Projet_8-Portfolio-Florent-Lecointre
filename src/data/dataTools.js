@@ -52,7 +52,7 @@ export function getElementMail(){
     contentMail.push(
         {
             "object" : object.value,
-            "message" : `${message.value}\\n\\n${firstname.value} ${name.value}`
+            "message" : `${message.value}%0A%0A${firstname.value} ${name.value}`
         }
     );
 
