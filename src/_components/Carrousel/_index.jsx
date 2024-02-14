@@ -64,8 +64,8 @@ function Carrousel(props){
 
         </div>
 
-    )
+    );
 
-}
+};
 
 export default Carrousel

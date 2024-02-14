@@ -52,7 +52,7 @@
                     "MangoDB",
                     "API Rest"
                 ],
-                "imageUrl" : "../../assets/logo-back-end.png"
+                "imageUrl" : "assets/logo-back-end.png"
             },
             {
                 "title" : "Outils",

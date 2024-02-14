@@ -57,8 +57,8 @@ function Collapsable(props){
 
         </div>
 
-    )
+    );
 
-}
+};
 
 export default Collapsable;

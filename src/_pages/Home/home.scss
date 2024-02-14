@@ -37,10 +37,19 @@
       text-shadow: 4px 5px 8px rgba(0, 0, 0, 1);
       font-size: 40px;
     }
-    button{
+    .download{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      padding: 5px 15px;
       width: 200px;
       height: 85px;
+      color: black;
+      background-color: white;
       font-size: 32px;
+      text-decoration: none;
       cursor: pointer;
       border-style: none;
       border-radius: 35px;

@@ -7,19 +7,17 @@ import Project from "../../_components/Project/_index";
 import Contact from "../../_components/Contact/_index";
 import { useNavigate } from "react-router";
 import { getDataAbout, getDataCompetence, getDataFormation, getDataPresentation, getDataProject } from "../../data/dataTools";
+import { Link } from "react-router-dom";
+import cvDl from "../../data/files/cv.pdf";
 
 function Home() {
 
     const navigate = useNavigate();
 
     let dataPresentation = getDataPresentation();
-
     let dataFormation = getDataFormation();
-
     let dataAbout = getDataAbout();
-
     let dataCompetence = getDataCompetence();
-
     let dataProject = getDataProject();
 
     return (
@@ -36,10 +34,16 @@ function Home() {
                     </h1>
                     <p>Dévellopeur web / Front-End</p>
 
-                    <button>
+                    <Link
+                    className="download"
+                    to={cvDl}
+                    download="florent-lecointre-cv"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
                         Mon CV
                         <FontAwesomeIcon icon={faUpload} />
-                    </button>
+                    </Link>
 
                 </div>
 
