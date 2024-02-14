@@ -1,11 +1,27 @@
-[
+import logoFrontEnd from "../assets/logo-front-end.png";
+import logoBackEnd from "../assets/logo-back-end.png";
+import logoTool from "../assets/logo-outils.png";
+import sophieBluel_1 from "../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG";
+import sophieBluel_2 from "../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG";
+import sophieBluel_3 from "../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG";
+import sophieBluel_4 from "../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG";
+import kasa_1 from "../assets/imagesProjects/Kasa/kasa-1.PNG";
+import kasa_2 from "../assets/imagesProjects/Kasa/kasa-2.PNG";
+import kasa_3 from "../assets/imagesProjects/Kasa/kasa-3.PNG";
+import kasa_4 from "../assets/imagesProjects/Kasa/kasa-4.PNG";
+import mvg_1 from "../assets/imagesProjects/monVieuxGrimoire/mvg-1.PNG";
+import mvg_2 from "../assets/imagesProjects/monVieuxGrimoire/mvg-2.PNG";
+import mvg_3 from "../assets/imagesProjects/monVieuxGrimoire/mvg-3.PNG";
+import mvg_4 from "../assets/imagesProjects/monVieuxGrimoire/mvg-4.PNG";
+
+export const allData =[
     {
         "id" : "presentation",
         "name" : "Florent Lecointre",
         "age" : "23 ans",
         "description" : [
             "Récement diplômé du parcour developpeur web de chez OpenClassrooms, ça à déclenché un révélation pour mon futur. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
-            "Ma volonté d'intégré le monde professionnel du développemnt est grandissante. Cela me permettra de consolidé mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
+            "Ma volonté d'intégré le monde professionnel du développement est grandissante. Cela me permettra de consolider mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
         ]
     },
     {
@@ -42,7 +58,7 @@
                     "Sass / Scss",
                     "Responsive design"
                 ],
-                "imageUrl" : "../../assets/logo-front-end.png"
+                "imageUrl" : logoFrontEnd
             },
             {
                 "title" : "Back-end",
@@ -52,7 +68,7 @@
                     "MangoDB",
                     "API Rest"
                 ],
-                "imageUrl" : "assets/logo-back-end.png"
+                "imageUrl" : logoBackEnd
             },
             {
                 "title" : "Outils",
@@ -64,7 +80,7 @@
                     "Postman",
                     "Visual Studio Code / NotePad++"
                 ],
-                "imageUrl" : "../../assets/logo-outils.png"
+                "imageUrl" : logoTool
             }
         ]
     },
@@ -74,10 +90,10 @@
             {
                 "titleProject" : "Sophie Bluel",
                 "imageUrl" : [
-                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
-                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
-                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
-                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
+                    sophieBluel_1,
+                    sophieBluel_2,
+                    sophieBluel_3,
+                    sophieBluel_4
                 ],
                 "title" : "Portfolio de l'architecte d'intérieur Sophie Bluel",
                 "description" : "Réalisation du front-end du portfolio de Sophie Bluel en Html/CSS et JavaScript avec une API pour l'envoie et le stockage des données.",
@@ -93,10 +109,10 @@
             {
                 "titleProject" : "Kasa",
                 "imageUrl" : [
-                    "../../assets/imagesProjects/Kasa/kasa-1.PNG",
-                    "../../assets/imagesProjects/Kasa/kasa-2.PNG",
-                    "../../assets/imagesProjects/Kasa/kasa-3.PNG",
-                    "../../assets/imagesProjects/Kasa/kasa-4.PNG"
+                    kasa_1,
+                    kasa_2,
+                    kasa_3,
+                    kasa_4
                 ],
                 "title" : "Application de location immobilière de particulier à particulier Kasa",
                 "description" : "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaire dans un fichier JSON.",
@@ -111,10 +127,10 @@
             {
                 "titleProject" : "Mon vieux grimoire",
                 "imageUrl" : [
-                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
-                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
-                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
+                    mvg_1,
+                    mvg_2,
+                    mvg_3,
+                    mvg_4
                 ],
                 "title" : "Application de notation de livre Mon Vieux Grimoire",
                 "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",

@@ -1,4 +1,4 @@
-import allData from "./data.json";
+import {allData} from "./data";
 
 export function getDataPresentation(){
     let data = allData.find((data) => {
