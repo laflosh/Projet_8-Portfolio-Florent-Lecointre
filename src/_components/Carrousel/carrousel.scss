@@ -6,11 +6,11 @@
 
 .carrousel{
     width: 97%;
-    height: 550px;
+    height: 700px;
     margin: 35px 0;
     &__image{
         width: 97%;
-        height: 550px;
+        height: 700px;
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
@@ -30,7 +30,7 @@
     }
     .btn {
         width: 97%;
-        height: 550px;
+        height: 700px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
