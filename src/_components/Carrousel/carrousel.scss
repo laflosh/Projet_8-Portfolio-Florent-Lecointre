@@ -1,23 +1,25 @@
 @mixin btnStyle{
-    color: white;
+    color: black;
     font-size: 75px;
     cursor: pointer;
 }
 
 .carrousel{
-    width: 90%;
-    height: 415px;
-    margin: 15px 0;
+    width: 97%;
+    height: 550px;
+    margin: 35px 0;
     &__image{
-        width: 90%;
-        height: 415px;
+        width: 97%;
+        height: 550px;
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
         z-index: 1;
+        border: 6px solid black;
+        border-radius: 15px;
     }
     &__value{
-        color: white;
+        color: black;
         font-weight: 500;
         font-size: 18px;
         text-align: center;
@@ -27,8 +29,8 @@
         left: 50%;
     }
     .btn {
-        width: 90%;
-        height: 415px;
+        width: 97%;
+        height: 550px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

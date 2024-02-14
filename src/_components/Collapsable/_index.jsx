@@ -36,10 +36,11 @@ function Collapsable(props){
                 style={isOpen ? { height: wrapperRef.current.scrollHeight + "px" } : { height: "0px" }}
             >
                 <div
+                    className="content__wrapper"
                     ref={contentRef} 
                     style={{ top: "-" + (contentRef.current ? contentRef.current.offsetHeight : 100) + "px" }} 
                 >
-                    {/*<Carrousel images={data.imageUrl}/> */}
+                    <Carrousel images={data.imageUrl}/>
 
                     <p className="content__title">{data.title}</p>
 

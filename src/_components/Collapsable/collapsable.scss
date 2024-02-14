@@ -44,12 +44,12 @@
         transition: height 250ms ease;
 
         &-over{
-            div {
+            .content__wrapper {
                 top:0px !important;
             }
         }
 
-        div {
+        &__wrapper{
             background-color: #F6F6F6;
             border-radius: 0px 0px 0.3em 0.3em;
             padding: 17.5px;

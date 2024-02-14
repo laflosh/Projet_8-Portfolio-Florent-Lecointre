@@ -36,22 +36,23 @@ function Carrousel(props){
 
             <div className="btn">
 
-                { hasImages && (
-                    <>
-                        <FontAwesomeIcon 
-                            icon={faChevronUp} 
-                            className="carrousel__buttonLeft"
-                            onClick={() => prevImage()}
-                        />
+                { hasImages && 
+                    (
+                        <>
+                            <FontAwesomeIcon 
+                                icon={faChevronUp} 
+                                className="carrousel__buttonLeft"
+                                onClick={() => prevImage()}
+                            />
 
-                        <FontAwesomeIcon icon={faChevronUp}
-                            className="carrousel__buttonRight"
-                            onClick={() => nextImage()}
-                        />
+                            <FontAwesomeIcon icon={faChevronUp}
+                                className="carrousel__buttonRight"
+                                onClick={() => nextImage()}
+                            />
 
-                        <span className="carrousel__value">{count + 1} / {pictures.length}</span>
+                            <span className="carrousel__value">{count + 1} / {pictures.length}</span>
 
-                    </>
+                        </>
 
                     )               
 
