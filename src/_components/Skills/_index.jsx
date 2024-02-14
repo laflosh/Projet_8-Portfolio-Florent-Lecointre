@@ -1,8 +1,9 @@
-import logoFront from "../../assets/logo-front-end.png";
-import logoBack from "../../assets/logo-back-end.png";
-import logoTool from "../../assets/logo-outils.png";
 
-function Skills(){
+
+function Skills(props){
+
+    let data = props.data;
+    console.log(data);
 
     return(
 
@@ -12,38 +13,22 @@ function Skills(){
 
             <div className="skillsElement">
 
-                <div className="skillsContent">
+                {data.skills.map((element, index) => 
 
-                    <img className="skillsContent__img" src={logoFront} title="Logo" alt="Logo de ReactJs"/>
+                    <div key={index} className="skillsContent">
 
-                    <h3 className="skillsContent__title">Front-End</h3>
-                    <p className="skillsContent__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    </p>
+                        <img className="skillsContent__img" src={element.imageUrl} title="Logo" alt={element.title}/>
 
-                </div>
+                        <h3 className="skillsContent__title">{element.title}</h3>
+                        <ul className="skillsContent__description">
+                            {element.competence.map((competence, index) =>
+                                <li key={index}>{competence}</li>
+                            )}
+                        </ul>
 
-                <div className="skillsContent">
+                    </div>
 
-                    <img className="skillsContent__img" src={logoBack} title="Logo" alt="Logo de NodeJs"/>
-
-                    <h3 className="skillsContent__title">Back-End</h3>
-                    <p className="skillsContent__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    </p>
-
-                </div>
-
-                <div className="skillsContent">
-
-                    <img className="skillsContent__img" src={logoTool} title="Logo" alt="Logo Outils"/>
-
-                    <h3 className="skillsContent__title">Outils</h3>
-                    <p className="skillsContent__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    </p>
-
-                </div>
+                )}
 
             </div>
 

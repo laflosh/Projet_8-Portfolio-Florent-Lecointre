@@ -22,7 +22,7 @@ function Presentation(props){
 
                     <p className="presentationContent__infoAge">{dataPresentation.age}</p>
 
-                    {dataPresentation.presentation.map((element, index) => 
+                    {dataPresentation.description.map((element, index) => 
 
                         <p key ={index} className="presentationContent__infoDescription">
                             {element}

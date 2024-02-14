@@ -52,7 +52,7 @@ function Home() {
 
             <About data={dataAbout}/>
 
-            <Skills/>
+            <Skills data={dataCompetence}/>
 
             <Project/>
 

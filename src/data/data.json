@@ -3,7 +3,7 @@
         "id" : "presentation",
         "name" : "Florent Lecointre",
         "age" : "23 ans",
-        "presentation" : [
+        "description" : [
             "Récement diplômé du parcour developpeur web de chez OpenClassrooms, ça à déclenché un révélation pour mon futur. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
             "Ma volonté d'intégré le monde professionnel du développemnt est grandissante. Cela me permettra de consolidé mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
         ]
@@ -32,26 +32,40 @@
     },
     {
         "id" : "competence",
-        "frontend" : [
-            "Html / CSS",
-            "JavaScript / JSX",
-            "ReactJS",
-            "Sass / Scss",
-            "Responsive design"
-        ],
-        "backend" : [
-            "NodeJS",
-            "ExpressJS",
-            "MangoDB",
-            "API Rest"
-        ],
-        "tools" : [
-            "npm / yarn",
-            "Git / GitHub",
-            "Confluence / Jira",
-            "Figma",
-            "Postman",
-            "Visual Studio Code / NotePad++"
+        "skills" : [
+            {
+                "title" : "Front-End",
+                "competence" : [
+                    "Html / CSS",
+                    "JavaScript / JSX",
+                    "ReactJS",
+                    "Sass / Scss",
+                    "Responsive design"
+                ],
+                "imageUrl" : "../../assets/logo-front-end.png"
+            },
+            {
+                "title" : "Back-end",
+                "competence" : [
+                    "NodeJS",
+                    "ExpressJS",
+                    "MangoDB",
+                    "API Rest"
+                ],
+                "imageUrl" : "../../assets/logo-back-end.png"
+            },
+            {
+                "title" : "Outils",
+                "competence" : [
+                    "npm / yarn",
+                    "Git / GitHub",
+                    "Confluence / Jira",
+                    "Figma",
+                    "Postman",
+                    "Visual Studio Code / NotePad++"
+                ],
+                "imageUrl" : "../../assets/logo-outils.png"
+            }
         ]
     },
     {
