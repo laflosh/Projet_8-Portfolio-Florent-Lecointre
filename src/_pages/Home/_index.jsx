@@ -13,19 +13,14 @@ function Home() {
     const navigate = useNavigate();
 
     let dataPresentation = getDataPresentation();
-    console.log(dataPresentation);
 
     let dataFormation = getDataFormation();
-    console.log(dataFormation);
 
     let dataAbout = getDataAbout();
-    console.log(dataAbout);
 
     let dataCompetence = getDataCompetence();
-    console.log(dataCompetence);
 
     let dataProject = getDataProject();
-    console.log(dataProject);
 
     return (
 
@@ -50,7 +45,7 @@ function Home() {
 
             </section>
 
-            <Presentation/>
+            <Presentation data={dataPresentation}/>
 
             <About/>
 
