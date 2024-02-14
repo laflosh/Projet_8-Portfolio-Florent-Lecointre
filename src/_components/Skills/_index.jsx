@@ -3,7 +3,6 @@
 function Skills(props){
 
     let data = props.data;
-    console.log(data);
 
     return(
 

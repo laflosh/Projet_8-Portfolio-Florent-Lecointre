@@ -1,6 +1,17 @@
 
 
-function Form(){
+function Form(props){
+
+    function handleClick(){
+        if(props.getElementMail){
+
+            let contentMail = props.getElementMail();
+            let mail = `mailto:l_florent_l@hotmail.fr?subject=${contentMail[0].object}&body=${contentMail[0].message}`;
+
+            window.open(mail);
+        };
+        
+    };
 
     return (
 
@@ -9,13 +20,17 @@ function Form(){
             <div className="form__info">
 
                 <div>
-                    <label for="firstname">Prénom :</label>
-                    <input type="text" name="firstname" id="firstname" required/>
+                    <label>
+                        Prénom :
+                        <input type="text" name="firstname" id="firstname" required/>
+                    </label>
                 </div>
 
                 <div>
-                    <label for="name">Nom :</label>
-                    <input type="text" name="name" id="name" required/>
+                    <label>
+                        Nom :
+                        <input type="text" name="name" id="name" required/>
+                    </label>
                 </div>
 
             </div>
@@ -23,17 +38,23 @@ function Form(){
             <div className="form__info">
 
                 <div>
-                    <label for="object">Objet :</label>
-                    <input type="text" name="object" id="object" required/>
+                    <label>
+                        Objet :
+                        <input type="text" name="object" id="object" required/>
+                    </label>
 
-                    <label for="message">Message :</label>
-                    <textarea name="message" id="message" required/>
+                    <label>
+                        Message :
+                        <textarea name="message" id="message" required/>
+                    </label>
                 </div>
 
             </div>
 
-
-            <button>Envoyer</button>
+ 
+            <button onClick={() => handleClick()}>
+                Envoyer
+            </button>
 
         </section>
 

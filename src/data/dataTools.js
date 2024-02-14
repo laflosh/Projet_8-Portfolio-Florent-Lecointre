@@ -39,3 +39,22 @@ export function getDataProject(){
 
     return data;
 };
+
+export function getElementMail(){
+
+    let firstname = document.getElementById("firstname");
+    let name = document.getElementById("name");
+    let object = document.getElementById("object");
+    let message = document.getElementById("message");
+
+    let contentMail = [];
+    
+    contentMail.push(
+        {
+            "object" : object.value,
+            "message" : `${message.value}\\n\\n${firstname.value} ${name.value}`
+        }
+    );
+
+    return contentMail;
+};

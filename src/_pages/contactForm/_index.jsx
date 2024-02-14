@@ -1,4 +1,5 @@
 import Form from "../../_components/Form/_index";
+import { getElementMail } from "../../data/dataTools";
 
 function ContactForm(){
 
@@ -14,7 +15,7 @@ function ContactForm(){
                 Je donnerai réponse à votre message dans les plus brefs délais
             </p>
 
-            <Form/>
+            <Form getElementMail={() => getElementMail()}/>
 
         </div>
 
