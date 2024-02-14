@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronUp} from "@fortawesome/fontawesome-free-solid";
+import Carrousel from "../Carrousel/_index";
 
 /**
  * 
@@ -9,6 +10,7 @@ import {faChevronUp} from "@fortawesome/fontawesome-free-solid";
 function Collapsable(props){
 
     const title = props.title;
+    let data = props.data;
 
     let [isOpen, setIsOpen] = useState(false);
 
@@ -37,8 +39,20 @@ function Collapsable(props){
                     ref={contentRef} 
                     style={{ top: "-" + (contentRef.current ? contentRef.current.offsetHeight : 100) + "px" }} 
                 >
-                    {props.children}
+                    {/*<Carrousel images={data.imageUrl}/> */}
+
+                    <p className="content__title">{data.title}</p>
+
+                    <p className="content__description">{data.description}</p>
+
+                    <ul className="content__mission">
+                        {data.mission.map((element, index) => 
+                            <li key={index}>{element}</li>
+                        )}
+                    </ul>
+
                 </div>
+
             </div>
 
         </div>

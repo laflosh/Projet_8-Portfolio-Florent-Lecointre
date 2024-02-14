@@ -54,7 +54,7 @@ function Home() {
 
             <Skills data={dataCompetence}/>
 
-            <Project/>
+            <Project data={dataProject}/>
 
             <Contact onClickHandler={() => navigate(`/contactform`)}/>
 

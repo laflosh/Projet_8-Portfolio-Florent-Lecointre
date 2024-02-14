@@ -1,6 +1,8 @@
 import Collapsable from "../Collapsable/_index";
 
-function Project(){
+function Project(props){
+
+    let data = props.data;
 
     return(
 
@@ -11,18 +13,19 @@ function Project(){
             <div className="projectContent">
 
                 <h3 className="projectContent__title">Formation Développeur web :</h3>
+                
+                {data.allProject.map((data, index) => 
 
-                <div className="projectContent__collapse">
-                    <Collapsable title="Sophie Bluel"/>
-                </div>
+                    <div key={index} className="projectContent__collapse">
 
-                <div className="projectContent__collapse">
-                    <Collapsable title="Kasa"/>
-                </div>
+                    <Collapsable 
+                    title={data.titleProject}
+                    data={data}
+                    />
+                    
+                    </div>
 
-                <div className="projectContent__collapse">
-                    <Collapsable title="Mon vieux grimoire"/>
-                </div>
+                )}
 
             </div>
 

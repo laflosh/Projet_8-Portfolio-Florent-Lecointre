@@ -59,6 +59,28 @@
             //top: -100px;
             transition: top 250ms ease;
         }
+        &__title{
+            color: #6d6c6c;
+            font-size: 36px;
+            font-weight: 800;
+            text-decoration: underline;
+            padding: 10px 0;
+        }
+        &__description{
+            color: #969696;
+            font-size: 26px;
+            font-weight: 600;
+            padding: 10px 0;
+        }
+        &__mission{
+            color: #969696;
+            font-size: 20px;
+            list-style: disc ;
+            padding: 20px 0;
+            li{
+                margin-left: 45px;
+            }
+        }
     }
     
 }

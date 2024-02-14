@@ -70,57 +70,62 @@
     },
     {
         "id" : "project",
-        "sophieBluel" : {
-            "imageUrl" : [
-                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
-                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
-                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
-                "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
-            ],
-            "title" : "Portfolio de l'architecte d'intérieur Sophie Bluel",
-            "description" : "Réalisation du front-end du portfolio de Sophie Bluel en Html/CSS et JavaScript avec une API pour l'envoie et le stockage des données.",
-            "mission" : [
-                "Afichage des projets dynamique",
-                "Filtrer les projets en fonction de leur catégorie",
-                "Connexion à un compte admin pour gestion des projets (authentification/token)",
-                "Réalisation d'une modal pour la gestion",
-                "Suppression d'un projet de la base de données",
-                "Ajouter un projet à la base de données"
-            ]
-        },
-        "kasa" : {
-            "imageUrl" : [
-                "../../assets/imagesProjects/Kasa/kasa-1.PNG",
-                "../../assets/imagesProjects/Kasa/kasa-2.PNG",
-                "../../assets/imagesProjects/Kasa/kasa-3.PNG",
-                "../../assets/imagesProjects/Kasa/kasa-4.PNG"
-            ],
-            "title" : "Application de location immobilière de particulier à particulier Kasa",
-            "description" : "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaire dans un fichier JSON.",
-            "mission" : [
-                "Gestion des pages de l'application à l'aide de la librairie react router",
-                "Décomposition de l'aplication en composant réutilisable",
-                "Mettre en œuvre des animations CSS",
-                "Création de l'interface web à l'aide du précompilateur Sass",
-                "Gestion des erreurs sur la navigation"
-            ]
-        },
-        "monVieuxGrimoire" : {
-            "imageUrl" : [
-                "../../assets/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                "../../assets/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
-                "../../assets/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
-                "../../assets/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
-            ],
-            "title" : "Application de notation de livre Mon Vieux Grimoire",
-            "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",
-            "mission" : [
-                "Création de compte utilisateur et connexion à un compte existant",
-                "Gestion de l'authentification grâce au token",
-                "Mis en œuvre des opérations CRUD de manière sécurisée",
-                "Implémenter un modèle logique de données conformément à la demande client",
-                "Stocker des données de manière sécurisée"
-            ]
-        }
+        "allProject" : [
+            {
+                "titleProject" : "Sophie Bluel",
+                "imageUrl" : [
+                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
+                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
+                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
+                    "../../assets/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
+                ],
+                "title" : "Portfolio de l'architecte d'intérieur Sophie Bluel",
+                "description" : "Réalisation du front-end du portfolio de Sophie Bluel en Html/CSS et JavaScript avec une API pour l'envoie et le stockage des données.",
+                "mission" : [
+                    "Afichage des projets dynamique",
+                    "Filtrer les projets en fonction de leur catégorie",
+                    "Connexion à un compte admin pour gestion des projets (authentification/token)",
+                    "Réalisation d'une modal pour la gestion",
+                    "Suppression d'un projet de la base de données",
+                    "Ajouter un projet à la base de données"
+                ]
+            },
+            {
+                "titleProject" : "Kasa",
+                "imageUrl" : [
+                    "../../assets/imagesProjects/Kasa/kasa-1.PNG",
+                    "../../assets/imagesProjects/Kasa/kasa-2.PNG",
+                    "../../assets/imagesProjects/Kasa/kasa-3.PNG",
+                    "../../assets/imagesProjects/Kasa/kasa-4.PNG"
+                ],
+                "title" : "Application de location immobilière de particulier à particulier Kasa",
+                "description" : "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaire dans un fichier JSON.",
+                "mission" : [
+                    "Gestion des pages de l'application à l'aide de la librairie react router",
+                    "Décomposition de l'aplication en composant réutilisable",
+                    "Mettre en œuvre des animations CSS",
+                    "Création de l'interface web à l'aide du précompilateur Sass",
+                    "Gestion des erreurs sur la navigation"
+                ]
+            },
+            {
+                "titleProject" : "Mon vieux grimoire",
+                "imageUrl" : [
+                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
+                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
+                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
+                    "../../assets/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
+                ],
+                "title" : "Application de notation de livre Mon Vieux Grimoire",
+                "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",
+                "mission" : [
+                    "Création de compte utilisateur et connexion à un compte existant",
+                    "Gestion de l'authentification grâce au token",
+                    "Mis en œuvre des opérations CRUD de manière sécurisée",
+                    "Implémenter un modèle logique de données conformément à la demande client",
+                    "Stocker des données de manière sécurisée"
+                ]
+            }
+        ]
     }
 ]
