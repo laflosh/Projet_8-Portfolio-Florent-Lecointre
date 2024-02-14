@@ -10,16 +10,18 @@
     },
     {
         "id" : "formation",
-        "devweb" : {
-            "degree" : "OpenClassrooms développeur Web",
-            "description" : "Front-end / Initiation Back-end Diplôme de niveau 5 (Bac +2)",
-            "year" : "2023-2024"
-        },
-        "bac" : {
-            "degree" : "Baccalauréat Scientifique",
-            "description" : "Option science de l'ingénieur",
-            "year" : "2019"
-        }
+        "formation" : [
+            {
+                "degree" : "OpenClassrooms développeur Web",
+                "description" : "Front-end / Initiation\nBack-end Diplôme de niveau 5 (Bac +2)",
+                "year" : "2023-2024"
+            },
+            {
+                "degree" : "Baccalauréat Scientifique",
+                "description" : "Option science de l'ingénieur",
+                "year" : "2019"
+            }
+        ]
     },
     {
         "id" : "about",

@@ -45,7 +45,10 @@ function Home() {
 
             </section>
 
-            <Presentation data={dataPresentation}/>
+            <Presentation 
+            dataPresentation={dataPresentation}
+            dataFormation={dataFormation}
+            />
 
             <About data={dataAbout}/>
 

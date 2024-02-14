@@ -3,7 +3,8 @@ import Formation from "../Formation/_index";
 
 function Presentation(props){
 
-    let data = props.data;
+    let dataPresentation = props.dataPresentation;
+    let dataFormation = props.dataFormation;
 
     return(
 
@@ -17,11 +18,11 @@ function Presentation(props){
 
                 <div className="presentationContent__info">
 
-                    <p className="presentationContent__infoName">{data.name}</p>
+                    <p className="presentationContent__infoName">{dataPresentation.name}</p>
 
-                    <p className="presentationContent__infoAge">{data.age}</p>
+                    <p className="presentationContent__infoAge">{dataPresentation.age}</p>
 
-                    {data.presentation.map((element, index) => 
+                    {dataPresentation.presentation.map((element, index) => 
 
                         <p key ={index} className="presentationContent__infoDescription">
                             {element}
@@ -31,7 +32,7 @@ function Presentation(props){
 
                 </div>
 
-                <Formation/>
+                <Formation data={dataFormation}/>
 
             </div>
 

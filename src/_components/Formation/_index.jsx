@@ -1,28 +1,26 @@
 
 
-function Formation(){
+function Formation(props){
+
+    let data = props.data;
 
     return(
 
         <section className="formation">
             
             <h3>Formation</h3>
+            
+            {data.formation.map((element, index) =>
 
-            <div>
+                <div key={index}>
 
-                <p className="formation__title">OpenClassrooms développeur Web</p>
-                <p className="formation__description">Front-end / Initiation Back-end<br/>Diplôme de niveau 5 (Bac +2)</p>
-                <p className="formation__date">2023-2024</p>
+                    <p className="formation__title">{element.degree}</p>
+                    <p className="formation__description">{element.description}</p>
+                    <p className="formation__date">{element.year}</p>
 
-            </div>
+                </div>
 
-            <div>
-
-                <p className="formation__title">Baccalauréat Scientifique</p>
-                <p className="formation__description">Option science de l'ingénieur</p>
-                <p className="formation__date">2019</p>
-
-            </div>
+            )}
 
         </section>
 
