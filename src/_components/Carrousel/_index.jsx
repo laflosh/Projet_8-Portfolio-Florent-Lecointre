@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faChevronUp} from "@fortawesome/fontawesome-free-solid";
 
 function Carrousel(props){
 
@@ -36,15 +38,16 @@ function Carrousel(props){
 
                 { hasImages && (
                     <>
-                        <i 
-                            className="fa fa-chevron-up carrousel__buttonLeft"
+                        <FontAwesomeIcon 
+                            icon={faChevronUp} 
+                            className="carrousel__buttonLeft"
                             onClick={() => prevImage()}
-                        ></i>
+                        />
 
-                        <i 
-                        className="fa fa-chevron-up carrousel__buttonRight"
-                        onClick={() => nextImage()}
-                        ></i>
+                        <FontAwesomeIcon icon={faChevronUp}
+                            className="carrousel__buttonRight"
+                            onClick={() => nextImage()}
+                        />
 
                         <span className="carrousel__value">{count + 1} / {pictures.length}</span>
 
