@@ -47,7 +47,7 @@ function Home() {
 
             <Presentation data={dataPresentation}/>
 
-            <About/>
+            <About data={dataAbout}/>
 
             <Skills/>
 
