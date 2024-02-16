@@ -5,11 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 20px;
-    border: 6px solid black;
-    border-radius: 15px;
-    box-shadow:
-        11px 11px 14px rgba(0, 0, 0, 0.49);
-    padding: 20px;
+    @include boxStyle;
     @media (max-width : 1024px) {
         width: 20%;
         margin-right: 30px;
@@ -19,7 +15,7 @@
         margin: 0;
     }
     h3{
-        color: #6d6c6c;
+        color: $cd-primary;
         font-size: 45px;
         text-decoration: underline;
         @media (max-width : 1024px) {
@@ -27,7 +23,7 @@
         }
     }
     &__title{
-        color: #6d6c6c;
+        color: $cd-primary;
         font-size: 24px;
         font-weight: 600;
         @media (max-width : 1024px) {
@@ -35,7 +31,7 @@
         }
     }
     &__description{
-        color:   #969696  ;
+        color: $cd-secondary;
         padding-top: 10px;
         font-size: 18px;
         @media (max-width : 1024px) {
@@ -43,7 +39,7 @@
         }
     }
     &__date{
-        color:  #b2b2b2 ;
+        color: $cd-thirdary;
         padding-top: 2px;
         font-size: 14px;
         font-style: italic;

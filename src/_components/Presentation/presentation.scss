@@ -7,12 +7,7 @@
     &__title{
         width: 100%;
         text-align: center;
-        font-size: 48px;
-        font-weight: 400;
-        border-top: 25px solid grey ;
-        border-bottom: 25px solid grey ;
-        margin-top: 40px;
-        padding: 20px 0;
+        @include sectionBanner;
         @media (max-width: 768px) {
             font-size: 32px;
             border-width: 20px;
@@ -63,18 +58,14 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
-        padding: 20px;
-        border: 6px solid black;
-        border-radius: 15px;
-        box-shadow:
-        11px 11px 14px rgba(0, 0, 0, 0.49);
+        @include boxStyle;
         @media (max-width: 768px) {
             width: 80%;
             gap: 10px;
         }
     }
     &__infoName{
-        color: #6d6c6c ;
+        color: $cd-primary ;
         font-size: 48px;
         text-align: center;
         @media (max-width : 1024px) {
@@ -82,7 +73,7 @@
         }
     }
     &__infoAge{
-        color: #6d6c6c ;
+        color: $cd-primary ;
         font-size: 24px;
         @media (max-width : 1024px) {
             font-size: 20px;
@@ -90,7 +81,7 @@
     }
     &__infoDescription{
         width: 100%;
-        color: #6d6c6c;
+        color: $cd-secondary;
         font-size: 24px;
         text-align: center;
         @media (max-width : 1024px) {

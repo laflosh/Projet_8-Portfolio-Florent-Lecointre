@@ -8,12 +8,7 @@
     &__title{
         width: 100%;
         text-align: center;
-        font-size: 48px;
-        font-weight: 400;
-        border-top: 25px solid grey ;
-        border-bottom: 25px solid grey ;
-        margin-top: 40px;
-        padding: 20px 0;
+        @include sectionBanner;
         @media (max-width: 768px) {
             font-size: 32px;
             border-width: 20px;
@@ -29,7 +24,7 @@
     align-items: center;
     padding-bottom: 25px;
     &__title{
-        color: #6d6c6c;
+        color: $cd-primary;
         font-size: 32px;
         text-decoration: underline;
         margin-right: 65%;

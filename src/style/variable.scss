@@ -1,0 +1,48 @@
+//couleur texte
+$cd-primary: #6d6c6c;
+$cd-secondary: #969696;
+$cd-thirdary: #b2b2b2;
+
+//Style bande titre de section
+@mixin sectionBanner {
+    font-size: 48px;
+    font-weight: 400;
+    border-top: 25px solid grey ;
+    border-bottom: 25px solid grey ;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+//Style de bordure pour cadre élément
+@mixin boxStyle {
+    border: 6px solid black;
+    border-radius: 15px;
+    box-shadow:
+    11px 11px 14px rgba(0, 0, 0, 0.49);
+    padding: 20px;
+}
+
+//Style de bordure pour contenaire formulaire de contact
+@mixin boxStyleForm {
+    padding: 15px 0;
+    border: 6px solid black;
+    border-radius: 15px;
+    box-shadow:
+    11px 11px 14px rgba(0, 0, 0, 0.49);
+}
+
+//Style de bordure pour input/textarea formulaire de contact
+@mixin boxStyleInput {
+    margin: 10px 0;
+    border-style: none;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+//Style générique pour bouton
+@mixin btnStyle{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 25px;
+    border: 5px solid black;
+}

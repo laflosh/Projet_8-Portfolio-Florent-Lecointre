@@ -59,10 +59,7 @@
       background-color: white;
       font-size: 32px;
       text-decoration: none;
-      cursor: pointer;
-      border-style: none;
-      border-radius: 35px;
-      border: 5px solid black;
+      @include btnStyle;
       box-shadow:
       10px 16px 14px rgba(0, 0, 0, 0.49);
       transition: transform 300ms;
