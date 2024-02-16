@@ -8,7 +8,6 @@ import Contact from "../../_components/Contact/_index";
 import { useNavigate } from "react-router";
 import { getDataAbout, getDataCompetence, getDataFormation, getDataPresentation, getDataProject } from "../../data/dataTools";
 import { Link } from "react-router-dom";
-import cvDl from "../../data/files/cv.pdf";
 
 function Home() {
 
@@ -32,11 +31,11 @@ function Home() {
                         Florent Lecointre
                         <div className="underline"></div>
                     </h1>
-                    <p>Dévellopeur web / Front-End</p>
+                    <p>Développeur web / Front-End</p>
 
                     <Link
                     className="download"
-                    to={cvDl}
+                    to="/files/cv.pdf"
                     download="florent-lecointre-cv"
                     target="_blank"
                     rel="noreferrer"
