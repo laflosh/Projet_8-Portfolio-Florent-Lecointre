@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Header(){
 
@@ -32,23 +33,33 @@ function Header(){
             <ul className="navbar">
 
                 <li className="navbar__link">
-                    <a href="#presentation">Présentation</a>
+                    <ScrollLink to="presentation" spy={true} smooth={true} duration={500}>
+                        Présentation
+                    </ScrollLink>
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#about">A propos de moi</a>
+                    <ScrollLink to="about" spy={true} smooth={true} duration={500}>
+                        A propos de moi
+                    </ScrollLink>
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#skill">Compétences</a>
+                    <ScrollLink to="skill" spy={true} smooth={true} duration={500}>
+                        Compétences
+                    </ScrollLink>
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#project">Portfolio</a>
+                    <ScrollLink to="project" spy={true} smooth={true} duration={500}>
+                        Portfolio
+                    </ScrollLink>
                 </li>
 
                 <li className="navbar__link">
-                    <a href="#contact">Contact</a>
+                    <ScrollLink to="contact" spy={true} smooth={true} duration={500}>
+                        Contact
+                    </ScrollLink>
                 </li>
 
             </ul>
