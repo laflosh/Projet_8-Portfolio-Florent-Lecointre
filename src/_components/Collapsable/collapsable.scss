@@ -17,6 +17,9 @@
             font-weight: 500;
             font-size: 24px;
             transition: margin-left 500ms ease-out;
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
         }
 
         &:hover {
@@ -33,6 +36,10 @@
             //border: 1px solid;
             &-over{
                 transform: rotate(-180deg);
+            }
+            @media (max-width: 768px) {
+                width: 2em;
+                height: 2em;
             }
         }
     }
@@ -68,6 +75,9 @@
             @media (max-width : 1024px) {
                 font-size: 26px;
             }
+            @media (max-width: 768px) {
+                font-size: 20px;
+            }
         }
         &__description{
             color: #969696;
@@ -76,6 +86,9 @@
             padding: 10px 0;
             @media (max-width : 1024px) {
                 font-size: 20px;
+            }
+            @media (max-width: 768px) {
+                font-size: 18px;
             }
         }
         &__mission{
@@ -88,6 +101,9 @@
             }
             @media (max-width : 1024px) {
                 font-size: 18px;
+            }
+            @media (max-width: 768px) {
+                font-size: 16px;
             }
         }
     }

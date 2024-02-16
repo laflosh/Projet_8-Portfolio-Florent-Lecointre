@@ -1,5 +1,5 @@
 .form{
-    width: 35%;
+    width: 675px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -12,13 +12,20 @@
     box-shadow:
     11px 11px 14px rgba(0, 0, 0, 0.49);
     @media (max-width : 1024px) {
-        width: 80%;
+        width: 650px;
+    }
+    @media (max-width: 768px) {
+        width: 360px;
+        padding: 5px 0;
     }
     label{
         color: #6d6c6c;
         font-size: 20px;
         text-align: start;
         margin: 10px 0;
+        @media (max-width: 768px) {
+            margin: 5px 0;
+        }
     }
     input{
         width: 565px;
@@ -27,6 +34,9 @@
         border-style: none;
         border: 3px solid black;
         border-radius: 5px;
+        @media (max-width: 768px) {
+            width: 270px;
+        }
     }
     textarea{
         width: 565px;
@@ -35,6 +45,9 @@
         border-style: none;
         border: 3px solid black;
         border-radius: 5px;
+        @media (max-width: 768px) {
+            width: 270px;
+        }
     }
     button{
         font-size: 20px;
@@ -48,11 +61,18 @@
         &:hover{
           transform: scale(1.10);
         }
+        @media (max-width: 768px) {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
     }
     &__info{
         display: flex;
         flex-direction: row;
         gap: 13.5px;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
         div, label{
             display: flex;
             flex-direction: column;

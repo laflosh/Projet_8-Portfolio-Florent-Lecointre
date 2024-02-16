@@ -14,6 +14,11 @@
         border-bottom: 25px solid grey ;
         margin-top: 40px;
         padding: 20px 0;
+        @media (max-width: 768px) {
+            font-size: 32px;
+            border-width: 20px;
+            padding: 10px 0;
+        }
     }
 }
 .skillsElement{
@@ -26,6 +31,10 @@
     padding: 20px 0;
     @media (max-width : 1024px) {
         gap: 80px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 30px;
     }
 
 }
@@ -45,9 +54,17 @@
     @media (max-width : 1024px) {
         height: 370px;
     }
+    @media (max-width: 768px) {
+        width: 50%;
+        height: 300px;
+    }
     &__img{
         width: 135px;
         height: 135px;
+        @media (max-width: 768px) {
+            width: 95px;
+            height: 95px;
+        }
     }
     &__title{
         color: #6d6c6c;
@@ -62,6 +79,9 @@
         text-align: center;
         @media (max-width : 1024px) {
             font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            font-size: 18px;
         }
     }
 }
