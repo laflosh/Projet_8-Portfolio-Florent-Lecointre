@@ -6,7 +6,7 @@ function Form(props){
         if(props.getElementMail){
 
             let contentMail = props.getElementMail();
-            let mail = `mailto:l_florent_l@hotmail.fr?subject=${contentMail[0].object}&body=${contentMail[0].message}`;
+            let mail = `mailto:l_florent_l@hotmail.fr?subject=${contentMail[0].subject}&body=${contentMail[0].message}`;
 
             window.open(mail);
         };
@@ -40,7 +40,7 @@ function Form(props){
                 <div>
                     <label>
                         Objet :
-                        <input type="text" name="object" id="object" required/>
+                        <input type="text" name="object" id="subject" required/>
                     </label>
 
                     <label>

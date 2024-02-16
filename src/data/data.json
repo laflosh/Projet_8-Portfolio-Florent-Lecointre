@@ -6,7 +6,8 @@
         "description" : [
             "Récement diplômé du parcour developpeur web de chez OpenClassrooms, ça à déclenché un révélation pour mon futur. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
             "Ma volonté d'intégré le monde professionnel du développement est grandissante. Cela me permettra de consolider mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
-        ]
+        ],
+        "imageUrl" : "/images/florent-lecointre.jpg"
     },
     {
         "id" : "formation",
@@ -112,9 +113,9 @@
                 "titleProject" : "Mon vieux grimoire",
                 "imageUrl" : [
                     "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG"
+                    "/images/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
+                    "/images/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
+                    "/images/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
                 ],
                 "title" : "Application de notation de livre Mon Vieux Grimoire",
                 "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",

@@ -1,4 +1,3 @@
-import profilPic from "../../assets/florent-lecointre.jpg";
 import Formation from "../Formation/_index";
 
 function Presentation(props){
@@ -14,7 +13,7 @@ function Presentation(props){
 
             <div className="presentationContent">
 
-                <img className="presentationContent__img" src={profilPic} title="Florent Lecointre" alt="Florent Lecointre"/>
+                <img className="presentationContent__img" src={dataPresentation.imageUrl} title="Florent Lecointre" alt="Florent Lecointre"/>
 
                 <div className="presentationContent__info">
 

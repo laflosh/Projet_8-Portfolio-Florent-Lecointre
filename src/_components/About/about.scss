@@ -23,6 +23,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @media (max-width : 1024px) {
+        margin: 0 4%;
+    }
     &__firstImg{
         width: 361px;
         height: 478px;
@@ -37,6 +40,10 @@
         box-shadow:
         2.6px 2.5px 1.8px rgba(0, 0, 0, 0.245),
         21px 20px 14px rgba(0, 0, 0, 0.49);
+        @media (max-width : 1024px) {
+            width: 400px;
+            height: 275px;
+        }
     }
     &__description{
         width: 40%;
@@ -47,6 +54,9 @@
         border: 6px solid black;
         border-radius: 15px;
         box-shadow:
-            11px 11px 14px rgba(0, 0, 0, 0.49);
+        11px 11px 14px rgba(0, 0, 0, 0.49);
+        @media (max-width : 1024px) {
+            font-size: 24px;
+        }
     }
 }

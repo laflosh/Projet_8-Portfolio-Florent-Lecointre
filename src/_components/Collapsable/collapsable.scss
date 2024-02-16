@@ -65,12 +65,18 @@
             font-weight: 800;
             text-decoration: underline;
             padding: 10px 0;
+            @media (max-width : 1024px) {
+                font-size: 26px;
+            }
         }
         &__description{
             color: #969696;
             font-size: 26px;
             font-weight: 600;
             padding: 10px 0;
+            @media (max-width : 1024px) {
+                font-size: 20px;
+            }
         }
         &__mission{
             color: #969696;
@@ -79,6 +85,9 @@
             padding: 20px 0;
             li{
                 margin-left: 45px;
+            }
+            @media (max-width : 1024px) {
+                font-size: 18px;
             }
         }
     }
