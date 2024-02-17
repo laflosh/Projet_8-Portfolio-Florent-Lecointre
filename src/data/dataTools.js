@@ -46,17 +46,17 @@ export function getElementMail(){
     let name = document.getElementById("name");
     let subject = document.getElementById("subject");
     let message = document.getElementById("message");
-
-    console.log(message.value)
-    message.value.replace(/\r\n|\r|\n/g, "%3Cbr%2F%3E");
-    console.log(message.value)
+    message = message.value;
+    console.log(message)
+    message = message.replace(/\r\n|\r|\n/g, "%0D%0A");
+    console.log(message)
 
     let contentMail = [];
     
     contentMail.push(
         {
             "subject" : subject.value,
-            "message" : `${message.value}%0A%0A${firstname.value} ${name.value}`
+            "message" : `${message}%0A%0A${firstname.value} ${name.value}`
         }
     );
 

@@ -89,7 +89,11 @@
                     "Réalisation d'une modal pour la gestion",
                     "Suppression d'un projet de la base de données",
                     "Ajouter un projet à la base de données"
-                ]
+                ],
+                "difficulties" : [
+
+                ],
+                "codeUrl" : "https://github.com/laflosh/projet_3-portfolio-Bluel-Sophie-achi"
             },
             {
                 "titleProject" : "Kasa",
@@ -107,7 +111,8 @@
                     "Mettre en œuvre des animations CSS",
                     "Création de l'interface web à l'aide du précompilateur Sass",
                     "Gestion des erreurs sur la navigation"
-                ]
+                ],
+                "codeUrl" : "https://github.com/laflosh/Projet-6-apllication-location-mobili-re-Kasa"
             },
             {
                 "titleProject" : "Mon vieux grimoire",
@@ -125,7 +130,8 @@
                     "Mis en œuvre des opérations CRUD de manière sécurisée",
                     "Implémenter un modèle logique de données conformément à la demande client",
                     "Stocker des données de manière sécurisée"
-                ]
+                ],
+                "codeUrl" : "https://github.com/laflosh/Projet_7-Back-end-Mon-vieux-grimoire"
             }
         ]
     }

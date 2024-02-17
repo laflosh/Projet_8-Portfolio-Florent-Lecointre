@@ -13,7 +13,7 @@ function About(props){
 
             <div className="aboutContent">
 
-                <img className="aboutContent__firstImg" src={streatLuge} title="Photo" alt="Florent en Streatluge"/>
+            <img className="aboutContent__firstImg" src={streatLuge} title="Photo" alt="Florent en Streatluge"/>
 
                 <p className="aboutContent__description">
                     {data.about[0]}
