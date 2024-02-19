@@ -1,4 +1,4 @@
-import logo from "../../assets/404-logo.jpg";
+import logo from "../../assets/404-logo.svg";
 
 function Error(){
 
