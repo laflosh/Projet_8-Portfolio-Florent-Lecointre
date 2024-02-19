@@ -1,63 +1,63 @@
 [
     {
-        "id" : "presentation",
-        "name" : "Florent Lecointre",
-        "age" : "23 ans",
-        "description" : [
-            "Récement diplômé du parcour developpeur web de chez OpenClassrooms, ça à déclenché un révélation pour mon futur. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
-            "Ma volonté d'intégré le monde professionnel du développement est grandissante. Cela me permettra de consolider mes connaissances actuelles et de découvrir de nouvelles manières de faire et penser. Je suis trés enthousiaste à l'idée de découvrir de nouveaux langages, libariries et frameworks."
+        "id": "presentation",
+        "name": "Florent Lecointre",
+        "age": "23 ans",
+        "description": [
+            "Récemment diplômé du parcours développeur web chez OpenClassrooms, cela a déclenché une révélation pour mon avenir. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
+            "Ma volonté d'intégrer le monde professionnel du développement est grandissante. Cela me permettra de consolider mes connaissances actuelles et de découvrir de nouvelles manières de faire et de penser. Je suis très enthousiaste à l'idée de découvrir de nouveaux langages, librairies et frameworks."
         ],
-        "imageUrl" : "/images/florent-lecointre.jpg"
+        "imageUrl": "/images/florent-lecointre.jpg"
     },
     {
-        "id" : "formation",
-        "formation" : [
+        "id": "formation",
+        "formation": [
             {
-                "degree" : "OpenClassrooms développeur Web",
-                "description" : "Front-end / Initiation Back-end\nDiplôme de niveau 5 (Bac +2)",
-                "year" : "2023-2024"
+                "degree": "OpenClassrooms développeur Web",
+                "description": "Front-end / Initiation Back-end\nDiplôme de niveau 5 (Bac +2)",
+                "year": "2023-2024"
             },
             {
-                "degree" : "Baccalauréat Scientifique",
-                "description" : "Option science de l'ingénieur",
-                "year" : "2019"
+                "degree": "Baccalauréat Scientifique",
+                "description": "Option science de l'ingénieur",
+                "year": "2019"
             }
         ]
     },
     {
-        "id" : "about",
-        "about" :[
-            "Passionné de basket, je pratique ce sport depuis une dizaine d'années, j'ai pu être amener à entrainer et coacher une équipe de joueur de 13 à 15ans. J'apprécie aussi les sport de glisse comme le ski et le snowboard en hiver et le surf et body-board l'été. Je pratique depuis peu la streatluge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
-            "Je possède une autre passion qui me suit depuis toujours qui est le jeu vidéo. C'est celle-ci qui m'a amené sur le chemin de la programmation informatique. Ayant pour but de pouvoir créer mes propres jeux, une fois mes compétences consolidés, je compte me tourner vers l'apprentissage du C, C++ ou encore le Java et des logiciels comme Unity 3D ou Unreal Engine."
+        "id": "about",
+        "about": [
+            "Passionné de basket, je pratique ce sport depuis une dizaine d'années. J'ai pu être amené à entraîner et coacher une équipe de joueurs de 13 à 15 ans. J'apprécie aussi les sports de glisse comme le ski et le snowboard en hiver, et le surf et le body-board en été. Je pratique depuis peu le street luge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
+            "Je possède une autre passion qui me suit depuis toujours, qui est le jeu vidéo. C'est celle-ci qui m'a amené sur le chemin de la programmation informatique. Ayant pour but de pouvoir créer mes propres jeux, une fois mes compétences consolidées, je compte me tourner vers l'apprentissage du C, C++ ou encore le Java, et des logiciels comme Unity 3D ou Unreal Engine."
         ]
     },
     {
-        "id" : "competence",
-        "skills" : [
+        "id": "competence",
+        "skills": [
             {
-                "title" : "Front-End",
-                "competence" : [
-                    "Html / CSS",
+                "title": "Front-End",
+                "competence": [
+                    "HTML / CSS",
                     "JavaScript / JSX",
                     "ReactJS",
-                    "Sass / Scss",
+                    "Sass / SCSS",
                     "Responsive design"
                 ],
-                "imageUrl" : "/images/logo-front-end.png"
+                "imageUrl": "/images/logo-front-end.png"
             },
             {
-                "title" : "Back-end",
-                "competence" : [
+                "title": "Back-end",
+                "competence": [
                     "NodeJS",
                     "ExpressJS",
-                    "MangoDB",
+                    "MongoDB",
                     "API Rest"
                 ],
-                "imageUrl" : "/images/logo-back-end.png"
+                "imageUrl": "/images/logo-back-end.png"
             },
             {
-                "title" : "Outils",
-                "competence" : [
+                "title": "Outils",
+                "competence": [
                     "npm / yarn",
                     "Git / GitHub",
                     "Confluence / Jira",
@@ -65,73 +65,82 @@
                     "Postman",
                     "Visual Studio Code / NotePad++"
                 ],
-                "imageUrl" : "/images/logo-outils.png"
+                "imageUrl": "/images/logo-outils.png"
             }
         ]
     },
     {
-        "id" : "project",
-        "allProject" : [
+        "id": "project",
+        "allProject": [
             {
-                "titleProject" : "Sophie Bluel",
-                "imageUrl" : [
+                "titleProject": "Sophie Bluel",
+                "imageUrl": [
                     "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
                     "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
                     "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
                     "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
                 ],
-                "title" : "Portfolio de l'architecte d'intérieur Sophie Bluel",
-                "description" : "Réalisation du front-end du portfolio de Sophie Bluel en Html/CSS et JavaScript avec une API pour l'envoie et le stockage des données.",
-                "mission" : [
-                    "Afichage des projets dynamique",
+                "title": "Portfolio de l'architecte d'intérieur Sophie Bluel",
+                "description": "Réalisation du front-end du portfolio de Sophie Bluel en HTML/CSS et JavaScript avec une API pour l'envoi et le stockage des données.",
+                "mission": [
+                    "Affichage des projets dynamique",
                     "Filtrer les projets en fonction de leur catégorie",
                     "Connexion à un compte admin pour gestion des projets (authentification/token)",
                     "Réalisation d'une modal pour la gestion",
                     "Suppression d'un projet de la base de données",
                     "Ajouter un projet à la base de données"
                 ],
-                "difficulties" : [
-
+                "problemes": [
+                    "Comprendre la demande client sur les fonctionnalités.\nRéalisation: Découper la fonctionnalité en plusieurs étapes de réalisations.",
+                    "Avoir des noms d'attributs, fonctions ou variables cohérents et explicites.\nRésolution: Réfléchir au contexte de chaque déclaration pour adapter le nom en conséquence."
                 ],
-                "codeUrl" : "https://github.com/laflosh/projet_3-portfolio-Bluel-Sophie-achi"
+                "codeUrl": "https://github.com/laflosh/projet_3-portfolio-Bluel-Sophie-achi"
             },
             {
-                "titleProject" : "Kasa",
-                "imageUrl" : [
+                "titleProject": "Kasa",
+                "imageUrl": [
                     "/images/imagesProjects/Kasa/kasa-1.PNG",
                     "/images/imagesProjects/Kasa/kasa-2.PNG",
                     "/images/imagesProjects/Kasa/kasa-3.PNG",
                     "/images/imagesProjects/Kasa/kasa-4.PNG"
                 ],
-                "title" : "Application de location immobilière de particulier à particulier Kasa",
-                "description" : "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaire dans un fichier JSON.",
-                "mission" : [
+                "title": "Application de location immobilière de particulier à particulier Kasa",
+                "description": "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaires dans un fichier JSON.",
+                "mission": [
                     "Gestion des pages de l'application à l'aide de la librairie react router",
-                    "Décomposition de l'aplication en composant réutilisable",
+                    "Décomposition de l'application en composants réutilisables",
                     "Mettre en œuvre des animations CSS",
-                    "Création de l'interface web à l'aide du précompilateur Sass",
+                    "Création de l'interface web à l'aide du préprocesseur Sass",
                     "Gestion des erreurs sur la navigation"
                 ],
-                "codeUrl" : "https://github.com/laflosh/Projet-6-apllication-location-mobili-re-Kasa"
+                "problemes": [
+                    "Savoir comment décomposer l'application.\nRésolution: Schématiser la structure de l'application sur papier",
+                    "Manipuler correctement les données.\nRésolution: Mise en place de fonction de gestion de données"
+                ],
+                "codeUrl": "https://github.com/laflosh/Projet-6-apllication-location-mobili-re-Kasa"
             },
             {
-                "titleProject" : "Mon vieux grimoire",
-                "imageUrl" : [
+                "titleProject": "Mon vieux grimoire",
+                "imageUrl": [
                     "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
                     "/images/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
                     "/images/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
                     "/images/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
                 ],
-                "title" : "Application de notation de livre Mon Vieux Grimoire",
-                "description" : "Réalisation du back-end de l'application mon vieux grimoire avec NodeJS, le framework ExpressJS et MangoDB pour la base de données, le front-end étant déjà réaliser à l'aide de ReactJS.",
-                "mission" : [
+                "title": "Application de notation de livre Mon Vieux Grimoire",
+                "description": "Réalisation du back-end de l'application Mon Vieux Grimoire avec NodeJS, le framework ExpressJS et MongoDB pour la base de données, le front-end étant déjà réalisé à l'aide de ReactJS.",
+                "mission": [
                     "Création de compte utilisateur et connexion à un compte existant",
                     "Gestion de l'authentification grâce au token",
-                    "Mis en œuvre des opérations CRUD de manière sécurisée",
+                    "Mise en œuvre des opérations CRUD de manière sécurisée",
                     "Implémenter un modèle logique de données conformément à la demande client",
                     "Stocker des données de manière sécurisée"
                 ],
-                "codeUrl" : "https://github.com/laflosh/Projet_7-Back-end-Mon-vieux-grimoire"
+                "problemes": [
+                    "Lors d'une erreur comprendre où elle se situe.\nRésolution: utilisation du debug et des points d'arrêt, titre spécifique à chaque point de sortie d'erreur.",
+                    "Implémentation de Sharp avec Multer pour la compression d'images.\nRésolution: lecture de documentation et tutoriel"
+                ],
+                "codeUrl": "https://github.com/laflosh/Projet_7-Back-end-Mon-vieux-grimoire"
             }
         ]
     }

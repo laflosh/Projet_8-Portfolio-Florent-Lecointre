@@ -12,7 +12,7 @@ function About(props){
 
             <div className="aboutContent">
 
-            <iframe className="aboutContent__firstImg" src="https://www.youtube.com/embed/tHmMqfP9LRE?playlist=tHmMqfP9LRE&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className="aboutContent__firstImg" src="https://www.youtube.com/embed/tHmMqfP9LRE?playlist=tHmMqfP9LRE&autoplay=1&mute=1&loop=1" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
 
                 <p className="aboutContent__description">
                     {data.about[0]}

@@ -46,8 +46,16 @@ function Collapsable(props){
 
                     <p className="content__description">{data.description}</p>
 
-                    <ul className="content__mission">
+                    <ul className="content__liste">
                         {data.mission.map((element, index) => 
+                            <li key={index}>{element}</li>
+                        )}
+                    </ul>
+
+                    <p className="content__titleProbleme">Problématiques rencontrés :</p>
+
+                    <ul className="content__liste">
+                        {data.problemes.map((element, index) => 
                             <li key={index}>{element}</li>
                         )}
                     </ul>
