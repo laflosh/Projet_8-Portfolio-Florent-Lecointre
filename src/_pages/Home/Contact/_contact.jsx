@@ -1,6 +1,6 @@
-import logoX from "../../assets/logo-X.png";
-import logoLinkedIn from "../../assets/logo-linkedin.jpg";
-import logoGithub from "../../assets/logo-github.webp";
+import logoX from "../../../assets/logo-X.png";
+import logoLinkedIn from "../../../assets/logo-linkedin.jpg";
+import logoGithub from "../../../assets/logo-github.webp";
 
 function Contact(props){
 

@@ -1,4 +1,4 @@
-import Formation from "../Formation/_index";
+import Formation from "./Formation/_formation";
 
 function Presentation(props){
 

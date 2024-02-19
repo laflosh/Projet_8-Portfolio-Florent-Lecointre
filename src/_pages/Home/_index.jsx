@@ -1,10 +1,10 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUpload} from "@fortawesome/fontawesome-free-solid";
-import Presentation from "../../_components/Presentation/_index";
-import About from "../../_components/About/_index";
-import Skills from "../../_components/Skills/_index";
-import Project from "../../_components/Project/_index";
-import Contact from "../../_components/Contact/_index";
+import Presentation from "./Presentation/_presentation";
+import About from "./About/_about";
+import Competences from "./Competences/_competences";
+import Projets from "./Projets/_projets";
+import Contact from "./Contact/_contact";
 import { useNavigate } from "react-router";
 import { getDataAbout, getDataCompetence, getDataFormation, getDataPresentation, getDataProject } from "../../data/dataTools";
 import { Link } from "react-router-dom";
@@ -16,8 +16,8 @@ function Home() {
     let dataPresentation = getDataPresentation();
     let dataFormation = getDataFormation();
     let dataAbout = getDataAbout();
-    let dataCompetence = getDataCompetence();
-    let dataProject = getDataProject();
+    let dataCompetences = getDataCompetence();
+    let dataProjects = getDataProject();
 
     return (
 
@@ -55,9 +55,9 @@ function Home() {
 
             <About data={dataAbout}/>
 
-            <Skills data={dataCompetence}/>
+            <Competences data={dataCompetences}/>
 
-            <Project data={dataProject}/>
+            <Projets data={dataProjects}/>
 
             <Contact onClickHandler={() => navigate(`/contactform`)}/>
 

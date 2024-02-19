@@ -18,7 +18,7 @@
         }
         @media (max-width: 768px) {
             font-size: 26px;
-            width: 70%;
+            width: 80%;
         }
     }
     &__description{
@@ -31,8 +31,82 @@
             font-size: 18px;
         }
         @media (max-width: 768px) {
-            width: 60%;
+            width: 70%;
             font-size: 16px;
+        }
+    }
+}
+
+.form{
+    width: 675px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0;
+    @include boxStyleForm;
+    @media (max-width : 1024px) {
+        width: 650px;
+    }
+    @media (max-width: 768px) {
+        width: 325px;
+        margin: 24px 0;
+        padding: 5px 0;
+    }
+    label{
+        color: $cd-primary;
+        font-size: 20px;
+        text-align: start;
+        margin: 10px 0;
+        @media (max-width: 768px) {
+            margin: 5px 0;
+        }
+    }
+    input{
+        width: 565px;
+        height: 40px;
+        @include boxStyleInput;
+        @media (max-width: 768px) {
+            width: 270px;
+        }
+    }
+    textarea{
+        width: 565px;
+        height: 210px;
+        @include boxStyleInput;
+        @media (max-width: 768px) {
+            width: 270px;
+        }
+    }
+    button{
+        font-size: 20px;
+        padding: 15px 30px;
+        margin: 15px 0;
+        @include btnStyle;
+        transition: transform 150ms;
+        &:hover{
+          transform: scale(1.10);
+        }
+        @media (max-width: 768px) {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+    }
+    &__info{
+        display: flex;
+        flex-direction: row;
+        gap: 13.5px;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        div, label{
+            display: flex;
+            flex-direction: column;
+            #firstname, #name{
+                width: 270px;
+                height: 40px;
+            }
         }
     }
 }

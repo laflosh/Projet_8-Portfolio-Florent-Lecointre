@@ -1,5 +1,5 @@
-import streatLuge from "../../assets/luge.jpg";
-import unityPic from "../../assets/logo-unity.jpg";
+import streatLuge from "../../../assets/luge.jpg";
+import unityPic from "../../../assets/logo-unity.jpg";
 
 function About(props){
 

@@ -40,7 +40,7 @@ function Header(){
 
                 <li className="navbar__link">
                     <ScrollLink to="about" spy={true} smooth={true} duration={500}>
-                        A propos de moi
+                        A propos
                     </ScrollLink>
                 </li>
 

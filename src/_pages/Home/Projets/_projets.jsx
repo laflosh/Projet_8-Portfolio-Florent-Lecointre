@@ -1,4 +1,4 @@
-import Collapsable from "../Collapsable/_index";
+import Collapsable from "../../../_components/Collapsable/_index";
 
 function Project(props){
 

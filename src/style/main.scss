@@ -2,17 +2,17 @@
 @import "./variable.scss";
 
 @import "../_pages/Home/home.scss";
-@import "../_pages/contactForm/contactform.scss";
+@import "../_pages/ContactForm/contactform.scss";
 @import "../_pages/Error/error.scss";
+
+@import "../_pages/Home/Presentation/presentation.scss";
+@import "../_pages/Home/Presentation/Formation/formation.scss";
+@import "../_pages/Home/About/about.scss";
+@import "../_pages/Home/Competences/competences.scss";
+@import "../_pages/Home/Projets/projets.scss";
+@import "../_pages/Home/Contact/contact.scss";
 
 @import "../_components/Header/header.scss";
 @import "../_components/Footer/footer.scss";
-@import "../_components/Presentation/presentation.scss";
-@import "../_components/Formation/formation.scss";
-@import "../_components/About/about.scss";
-@import "../_components/Skills/skills.scss";
-@import "../_components/Project/project.scss";
 @import "../_components/Collapsable/collapsable.scss";
-@import "../_components/Contact/contact.scss";
-@import "../_components/Form/form.scss";
 @import "../_components/Carrousel/carrousel.scss";

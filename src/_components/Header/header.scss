@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 3;
     @media (max-width: 768px) {
-        gap: 5px
+        gap: 0;
     }
     &__link  a {
         color: white;
@@ -30,6 +30,7 @@
         @media (max-width: 768px) {
             font-size: 14px;
             font-weight: 400;
+            padding: 2px;
         }
         &:hover{
             border-color: white;
