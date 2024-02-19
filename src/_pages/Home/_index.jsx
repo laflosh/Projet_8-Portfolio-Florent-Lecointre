@@ -17,7 +17,7 @@ function Home() {
     let dataFormation = getDataFormation();
     let dataAbout = getDataAbout();
     let dataCompetences = getDataCompetence();
-    let dataProjects = getDataProject();
+    let dataProjets = getDataProject();
 
     return (
 
@@ -57,7 +57,7 @@ function Home() {
 
             <Competences data={dataCompetences}/>
 
-            <Projets data={dataProjects}/>
+            <Projets data={dataProjets}/>
 
             <Contact onClickHandler={() => navigate(`/contactform`)}/>
 
