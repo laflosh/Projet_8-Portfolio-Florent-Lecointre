@@ -1,6 +1,8 @@
-import logoX from "../../../assets/logo-X.png";
-import logoLinkedIn from "../../../assets/logo-linkedin.jpg";
-import logoGithub from "../../../assets/logo-github.webp";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faXTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope} from "@fortawesome/fontawesome-free-solid";
 
 function Contact(props){
 
@@ -18,38 +20,33 @@ function Contact(props){
 
             <div className="contactContent">
 
-                <h3 className="contactContent__title">Pour me contacter</h3>
-
                 <div className="wrapper">
+
 
                     <div>
 
-                        <p>Sur mes réseaux :</p>
-
                         <a href="https://twitter.com/florent_l_" rel="noreferrer" target="_blank">
-                            <img className="contactContent__img" src={logoX} title="Logo" alt="X"/>
+                            <FontAwesomeIcon icon={faXTwitter} className="contactContent__svg" />
                         </a>
 
                         <a href="https://www.linkedin.com/in/florent-lecointre-459530235/" rel="noreferrer" target="_blank">
-                            <img className="contactContent__img" src={logoLinkedIn} title="Logo" alt="LinkedIn"/>
-                        </a>
-
-                        <a href="https://github.com/laflosh" rel="noreferrer" target="_blank">
-                            <img className="contactContent__img" src={logoGithub} title="Logo" alt="Github"/>
+                            <FontAwesomeIcon icon={faLinkedinIn} className="contactContent__svg" />
                         </a>
 
                     </div>
 
                     <div>
 
-                        <p>Par mail :</p>
+                        <a href="https://github.com/laflosh" rel="noreferrer" target="_blank">
+                            <FontAwesomeIcon icon={faGithub} className="contactContent__svg"/>
+                        </a>
 
-                        <button onClick={handleClick}>
-                            Contact par mail
-                        </button>
+                        <a href="#">
+                            <FontAwesomeIcon icon={faEnvelope} className="contactContent__svg" onClick={handleClick} />
+                        </a>
 
                     </div>
-
+                
                 </div>
 
             </div>

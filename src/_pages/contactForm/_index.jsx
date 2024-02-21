@@ -29,17 +29,9 @@ function ContactForm(){
         
     };
 
-    return(
+    return (
 
         <div className="contactform">
-
-            <h1 className="contactform__title">
-                Remplissez ce formulaire pour me contacter par mail
-            </h1>
-
-            <p className="contactform__description">
-                Je donnerai réponse à votre message dans les plus brefs délais
-            </p>
 
             <form className="form">
 
@@ -47,31 +39,27 @@ function ContactForm(){
 
                     <div>
                         <label>
-                            Prénom :
-                            <input type="text" name="firstname" id="firstname" required/>
+                            <input type="text" name="firstname" id="firstname" required placeholder="Votre prénom"/>
                         </label>
                     </div>
 
                     <div>
                         <label>
-                            Nom :
-                            <input type="text" name="name" id="name" required/>
+                            <input type="text" name="name" id="name" required placeholder="Votre nom"/>
                         </label>
                     </div>
 
-                    </div>
+                </div>
 
-                    <div className="form__info">
+                <div className="form__info">
 
                     <div>
                         <label>
-                            Objet :
-                            <input type="text" name="object" id="subject" required/>
+                            <input type="text" name="subject" id="subject" required placeholder="Le sujet de votre message"/>
                         </label>
 
                         <label>
-                            Message :
-                            <textarea name="message" id="message" required/>
+                            <textarea name="message" id="message" required placeholder="Votre message"/>
                         </label>
                     </div>
 

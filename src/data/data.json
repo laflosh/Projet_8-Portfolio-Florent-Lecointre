@@ -7,7 +7,7 @@
             "Récemment diplômé du parcours développeur web chez OpenClassrooms, cela a déclenché une révélation pour mon avenir. Motivé et déterminé à en apprendre toujours plus dans le monde de la programmation, je compte suivre leur formation de développeur d'application Java.",
             "Ma volonté d'intégrer le monde professionnel du développement est grandissante. Cela me permettra de consolider mes connaissances actuelles et de découvrir de nouvelles manières de faire et de penser. Je suis très enthousiaste à l'idée de découvrir de nouveaux langages, librairies et frameworks."
         ],
-        "imageUrl": "/images/florent-lecointre.jpg"
+        "imageUrl": "images/florent-lecointre.jpg"
     },
     {
         "id": "formation",
@@ -27,7 +27,7 @@
     {
         "id": "about",
         "about": [
-            "Passionné de basket, je pratique ce sport depuis une dizaine d'années. J'ai pu être amené à entraîner et coacher une équipe de joueurs de 13 à 15 ans. J'apprécie aussi les sports de glisse comme le ski et le snowboard en hiver, et le surf et le body-board en été. Je pratique depuis peu le street luge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
+            "Passionné de basket, je pratique ce sport depuis une dizaine d'années. J'ai pu être amené à entraîner et coacher une équipe de joueurs de 13 à 15 ans. J'apprécie aussi les sports de glisse comme le ski et le snowboard en hiver, le surf et le body-board en été. Je pratique depuis peu le street luge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
             "Je possède une autre passion qui me suit depuis toujours, qui est le jeu vidéo. C'est celle-ci qui m'a amené sur le chemin de la programmation informatique. Ayant pour but de pouvoir créer mes propres jeux, une fois mes compétences consolidées, je compte me tourner vers l'apprentissage du C, C++ ou encore le Java, et des logiciels comme Unity 3D ou Unreal Engine."
         ]
     },
@@ -43,7 +43,7 @@
                     "Sass / SCSS",
                     "Responsive design"
                 ],
-                "imageUrl": "/images/logo-front-end.png"
+                "imageUrl": "images/logo-front-end.png"
             },
             {
                 "title": "Back-end",
@@ -53,7 +53,7 @@
                     "MongoDB",
                     "API Rest"
                 ],
-                "imageUrl": "/images/logo-back-end.png"
+                "imageUrl": "images/logo-back-end.png"
             },
             {
                 "title": "Outils",
@@ -65,7 +65,7 @@
                     "Postman",
                     "Visual Studio Code / NotePad++"
                 ],
-                "imageUrl": "/images/logo-outils.png"
+                "imageUrl": "images/logo-outils.png"
             }
         ]
     },
@@ -75,10 +75,10 @@
             {
                 "titleProject": "Sophie Bluel",
                 "imageUrl": [
-                    "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
-                    "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
-                    "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
-                    "/images/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
+                    "images/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
+                    "images/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
+                    "images/imagesProjects/portfolioSophieBluel/sophie-bluel-3.PNG",
+                    "images/imagesProjects/portfolioSophieBluel/sophie-bluel-4.PNG"
                 ],
                 "title": "Portfolio de l'architecte d'intérieur Sophie Bluel",
                 "description": "Réalisation du front-end du portfolio de Sophie Bluel en HTML/CSS et JavaScript avec une API pour l'envoi et le stockage des données.",
@@ -99,10 +99,10 @@
             {
                 "titleProject": "Kasa",
                 "imageUrl": [
-                    "/images/imagesProjects/Kasa/kasa-1.PNG",
-                    "/images/imagesProjects/Kasa/kasa-2.PNG",
-                    "/images/imagesProjects/Kasa/kasa-3.PNG",
-                    "/images/imagesProjects/Kasa/kasa-4.PNG"
+                    "images/imagesProjects/Kasa/kasa-1.PNG",
+                    "images/imagesProjects/Kasa/kasa-2.PNG",
+                    "images/imagesProjects/Kasa/kasa-3.PNG",
+                    "images/imagesProjects/Kasa/kasa-4.PNG"
                 ],
                 "title": "Application de location immobilière de particulier à particulier Kasa",
                 "description": "Réalisation du front-end de l'application Kasa avec le framework React JS et en ayant les données nécessaires dans un fichier JSON.",
@@ -122,10 +122,10 @@
             {
                 "titleProject": "Mon vieux grimoire",
                 "imageUrl": [
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
-                    "/images/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
+                    "images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
+                    "images/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
+                    "images/imagesProjects/monVieuxGrimoire/mvg-3.PNG",
+                    "images/imagesProjects/monVieuxGrimoire/mvg-4.PNG"
                 ],
                 "title": "Application de notation de livre Mon Vieux Grimoire",
                 "description": "Réalisation du back-end de l'application Mon Vieux Grimoire avec NodeJS, le framework ExpressJS et MongoDB pour la base de données, le front-end étant déjà réalisé à l'aide de ReactJS.",

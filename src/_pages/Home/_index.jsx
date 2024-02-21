@@ -35,7 +35,7 @@ function Home() {
 
                     <Link
                     className="download"
-                    to="/files/cv.pdf"
+                    to="files/florent-lecointre-cv.pdf"
                     download="florent-lecointre-cv"
                     target="_blank"
                     rel="noreferrer"

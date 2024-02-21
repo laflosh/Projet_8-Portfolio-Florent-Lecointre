@@ -60,7 +60,9 @@ function Collapsable(props){
                         )}
                     </ul>
 
-                    <a className="content__link" href={data.codeUrl}>Lien vers le repositorie</a>
+                    <a className="content__link" href={data.codeUrl} rel="noreferrer" target="_blank">
+                        Voir le projet Github 
+                    </a>
 
                 </div>
 

@@ -1,21 +1,23 @@
+// Palette couleurs https://coolors.co/0c182b-c6b8dd-17233e-0d5580-060f20
+
 //couleur texte
-$cd-primary: #6d6c6c;
-$cd-secondary: #969696;
-$cd-thirdary: #b2b2b2;
+$cd-primary: #424141;
+$cd-secondary: #505050;
+$cd-thirdary: #505050;
 
 //Style bande titre de section
 @mixin sectionBanner {
     font-size: 48px;
     font-weight: 400;
-    border-top: 25px solid grey ;
-    border-bottom: 25px solid grey ;
+    border-top: 25px solid #17233E ;
+    border-bottom: 10px solid #0D5580 ;
     margin-top: 40px;
     padding: 20px 0;
 }
 
 //Style de bordure pour cadre élément
 @mixin boxStyle {
-    border: 6px solid black;
+    border: 4px solid #0c182b;
     border-radius: 15px;
     box-shadow:
     11px 11px 14px rgba(0, 0, 0, 0.49);
@@ -25,7 +27,7 @@ $cd-thirdary: #b2b2b2;
 //Style de bordure pour contenaire formulaire de contact
 @mixin boxStyleForm {
     padding: 15px 0;
-    border: 6px solid black;
+    border: 4px solid #0c182b;
     border-radius: 15px;
     box-shadow:
     11px 11px 14px rgba(0, 0, 0, 0.49);
@@ -35,7 +37,7 @@ $cd-thirdary: #b2b2b2;
 @mixin boxStyleInput {
     margin: 10px 0;
     border-style: none;
-    border: 3px solid black;
+    border: 4px solid #0c182b;
     border-radius: 5px;
 }
 
@@ -43,6 +45,6 @@ $cd-thirdary: #b2b2b2;
 @mixin btnStyle{
     cursor: pointer;
     border-style: none;
-    border-radius: 25px;
-    border: 5px solid black;
+    border-radius: 10px;
+    border: 2px solid #0D5580;
 }

@@ -6,7 +6,7 @@ function Footer(){
 
         <div className="footer">
 
-            <p className="footer__text">Developed by Florent Lecointre</p>
+            <p className="footer__text">Fièrement réalisé par Florent Lecointre</p>
 
         </div>
 
