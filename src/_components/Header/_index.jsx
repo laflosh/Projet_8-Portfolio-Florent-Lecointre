@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
-import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 function Header(){
@@ -9,7 +8,7 @@ function Header(){
     let [isForm, setIsForm] = useState(false);
 
     useEffect(() => {
-
+        console.log(location.pathname)
         if (location.pathname !== "/"){
             setIsForm(true);
         } else {
@@ -25,7 +24,7 @@ function Header(){
         { isForm ? (
 
             <div className="navbarBack">
-                <Link to="/" className="navbarBack__link">Retour</Link>
+                <a href={process.env.PUBLIC_URL} className="navbarBack__link">Retour</a>
             </div>
 
             ) : (
