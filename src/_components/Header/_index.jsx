@@ -8,7 +8,7 @@ function Header(){
     let [isForm, setIsForm] = useState(false);
 
     useEffect(() => {
-        console.log(location.pathname)
+
         if (location.pathname !== "/"){
             setIsForm(true);
         } else {
@@ -16,6 +16,8 @@ function Header(){
         }
 
     },[location]);
+
+    console.log(process.env.PUBLIC_URL)
 
     return(
 

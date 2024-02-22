@@ -35,14 +35,15 @@ function Collapsable(props){
                 className={"content " + (isOpen ? "content-over" : "")}
                 style={isOpen ? { height: wrapperRef.current.scrollHeight + "px" } : { height: "0px" }}
             >
-                <div
+              <div
                     className="content__wrapper"
                     ref={contentRef} 
                     style={{ top: "-" + (contentRef.current ? contentRef.current.offsetHeight : 100) + "px" }} 
                 >
-                    <Carrousel images={data.imageUrl}/>
 
                     <p className="content__title">{data.title}</p>
+
+                    <Carrousel images={data.imageUrl}/>
 
                     <p className="content__description">{data.description}</p>
 
@@ -60,9 +61,7 @@ function Collapsable(props){
                         )}
                     </ul>
 
-                    <a className="content__link" href={data.codeUrl} rel="noreferrer" target="_blank">
-                        Voir le projet Github 
-                    </a>
+                    <a className="content__link" href={data.codeUrl} target="_blank" rel="noreferrer">Voir le projet sur Github</a>
 
                 </div>
 

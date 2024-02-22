@@ -27,7 +27,7 @@
     {
         "id": "about",
         "about": [
-            "Passionné de basket, je pratique ce sport depuis une dizaine d'années. J'ai pu être amené à entraîner et coacher une équipe de joueurs de 13 à 15 ans. J'apprécie aussi les sports de glisse comme le ski et le snowboard en hiver, le surf et le body-board en été. Je pratique depuis peu le street luge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
+            "Passionné de basket, je pratique ce sport depuis une dizaine d'années. J'ai pu être amené à entraîner et coacher une équipe de joueurs de 13 à 15 ans. J'apprécie aussi les sports de glisse comme le ski et le snowboard en hiver, et le surf et le body-board en été. Je pratique depuis peu le street luge, sport à forte sensation, dans les routes sinueuses des Pyrénées.",
             "Je possède une autre passion qui me suit depuis toujours, qui est le jeu vidéo. C'est celle-ci qui m'a amené sur le chemin de la programmation informatique. Ayant pour but de pouvoir créer mes propres jeux, une fois mes compétences consolidées, je compte me tourner vers l'apprentissage du C, C++ ou encore le Java, et des logiciels comme Unity 3D ou Unreal Engine."
         ]
     },
@@ -63,7 +63,7 @@
                     "Confluence / Jira",
                     "Figma",
                     "Postman",
-                    "Visual Studio Code / NotePad++"
+                    "Visual Studio Code / Notepad++"
                 ],
                 "imageUrl": "images/logo-outils.png"
             }
@@ -73,7 +73,7 @@
         "id": "project",
         "allProject": [
             {
-                "titleProject": "Sophie Bluel",
+                "titleProject": "Formation développeur web : Sophie Bluel",
                 "imageUrl": [
                     "images/imagesProjects/portfolioSophieBluel/sophie-bluel-1.PNG",
                     "images/imagesProjects/portfolioSophieBluel/sophie-bluel-2.PNG",
@@ -97,7 +97,7 @@
                 "codeUrl": "https://github.com/laflosh/projet_3-portfolio-Bluel-Sophie-achi"
             },
             {
-                "titleProject": "Kasa",
+                "titleProject": "Formation développeur web : Kasa",
                 "imageUrl": [
                     "images/imagesProjects/Kasa/kasa-1.PNG",
                     "images/imagesProjects/Kasa/kasa-2.PNG",
@@ -120,7 +120,7 @@
                 "codeUrl": "https://github.com/laflosh/Projet-6-apllication-location-mobili-re-Kasa"
             },
             {
-                "titleProject": "Mon vieux grimoire",
+                "titleProject": "Formation développeur web : Mon vieux grimoire",
                 "imageUrl": [
                     "images/imagesProjects/monVieuxGrimoire/mvg-1.PNG",
                     "images/imagesProjects/monVieuxGrimoire/mvg-2.PNG",
